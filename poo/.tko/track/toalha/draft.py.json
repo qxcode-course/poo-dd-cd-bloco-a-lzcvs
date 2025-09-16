@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-16_19-37-33",
+            "content": "@@ -1,27 +0,0 @@\n-print('erica boba e chata')\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-09-16_19-39-06",
+            "content": "@@ -1,192 +1,27 @@\n-class Towel:%0A    def __init__(self):%0A        self.color = 'red'%0A        self.size  = 'P'%0A        self.wetness = 0%0A%0Atoalha = Towel()%0Aprint(toalha.color)%0Aprint(toalha.size)%0Aprint(toalha.wetness\n+print('erica boba e chata'\n )\n",
+            "lines": "1"
+        },
+        {
+            "label": "2025-09-16_20-08-55",
+            "content": "@@ -1,8 +1,28 @@\n+@@ -1,118 +1,34 @@%0A-\n class To\n@@ -25,17 +25,19 @@\n s Towel:\n-%0A\n+%250A\n     def \n@@ -47,25 +47,27 @@\n nit__(self):\n-%0A\n+%250A\n         self\n@@ -80,17 +80,19 @@\n  = 'red'\n-%0A\n+%250A\n         \n@@ -107,17 +107,19 @@\n e  = 'P'\n-%0A\n+%250A\n         \n@@ -138,90 +138,297 @@\n  = 0\n-%0A    def __str__ (self):%0A        return f'color: %7Bself.color%7D, size: %7Bself.size%7D'%0A\n+%250A%0A+@@ -111,88 +111,8 @@%250A = 0%25250A%250A-%0A     %0A@@ -46,17 +46,19 @@%0A  (self):%0A-%250A%0A+%25250A%0A         %0A@@ -73,17 +73,19 @@%0A 'color: %0A-%257B%0A+%25257B%0A self.col%0A@@ -90,17 +90,19 @@%0A olor%0A-%257D%0A+%25257D%0A , size: %0A %257Bsel%0A@@ -101,9 +101,11 @@%0A ze: %0A-%257B%0A+%25257B%0A self%0A@@ -113,84 +113,17 @@%0A size%0A-%257D'%250A\n toal\n@@ -439,17 +439,19 @@\n  Towel()\n-%0A\n+%250A\n print(to\n@@ -461,17 +461,19 @@\n a.color)\n-%0A\n+%250A\n print(to\n@@ -482,17 +482,19 @@\n ha.size)\n-%0A\n+%250A\n print(to\n@@ -506,8 +506,32 @@\n wetness)\n+%0A+%25257D'%250A %25250Atoa%250A%0A\n",
+            "lines": "29"
+        },
+        {
+            "label": "2025-09-16_20-20-48",
+            "content": "@@ -209,21 +209,8 @@\n l()%0A\n-print(Towel)%0A\n prin\n",
+            "lines": "11"
+        },
+        {
+            "label": "2025-09-16_20-21-04",
+            "content": "@@ -1,216 +1,34 @@\n-class Towel:%0A    def __init__(self):%0A        self.color = 'red'%0A        self.size  = 'P'%0A        self.wetness = 0%0A    def __str__ (self):%0A        return f'color: %7Bself.color%7D, size: %7Bself.size%7D'%0A%0Atoalha =\n+@@ -205,16 +205,28 @@%0A\n  Towel()\n %0Apri\n@@ -23,17 +23,21 @@\n  Towel()\n-%0A\n+%250A%0A+\n print(To\n@@ -43,68 +43,18 @@\n owel\n-()\n )%0A\n+ %250A\n print(t\n-oalha.color)%0Aprint(toalha.size)%0Aprint(toalha.wetness)\n+%0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-09-16_20-22-03",
+            "content": "class Towel:\n    def __init__(self):\n        self.color = 'red'\n        self.size  = 'P'\n        self.wetness = 0\n    def __str__ (self):\n        return f'color: {self.color}, size: {self.size}'\n\ntoalha = Towel()\nprint(Towel())\nprint(toalha.color)\nprint(toalha.size)\nprint(toalha.wetness)",
+            "lines": "13"
+        }
+    ]
+}
